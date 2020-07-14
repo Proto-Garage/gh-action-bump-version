@@ -26,7 +26,7 @@ Make sure you use the `actions/checkout@v2` action!
 
 ```yaml
 - name: "Automated Version Bump"
-  uses: "phips28/gh-action-bump-version@master"
+  uses: "drys262/gh-action-bump-version@master"
   with:
     tag-prefix: ""
 ```
@@ -35,7 +35,7 @@ Make sure you use the `actions/checkout@v2` action!
 
 ```yaml
 - name: "Automated Version Bump"
-  uses: "phips28/gh-action-bump-version@master"
+  uses: "drys262/gh-action-bump-version@master"
   env:
     PACKAGEJSON_DIR: "frontend"
 ```
